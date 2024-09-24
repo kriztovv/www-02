@@ -6,6 +6,9 @@ nav{
     background-color: #4F1787;
     padding: 10px;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 h1{
     color: #EB3678;
@@ -33,19 +36,85 @@ h3{
     color: #FB773C;
     font-size: 60px;
 }
-ol{
+.alba{
     font-family: "Archivo Black", sans-serif;
     font-weight: 600;
     position: absolute;
     top: 200px;
     left: 120px;
     color: #FB773C;
-    font-size: 60px;
+    font-size: 40px;
 }
-p{
-    align-items: left;
+.medajlonek{
+    position: absolute;
+    text-align: center;
+    bottom: 60px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: #FB773C;
 }
 .container{
     position: relative;
     
+}
+iframe{
+    position: absolute;
+    top: 300px;
+    right: 120px;
+}
+.rok{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 500px;
+    left: 120px;
+    color: #FB773C;
+    font-size: 40px;
+}
+.clenove{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    align-items: center;
+    color: #FB773C;
+    font-size: 40px;
+}
+.pisnicky{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600px;
+    color: #FB773C;
+    font-size: 40px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    
+}
+h4{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    color: #FB773C;
+    font-size: 60px;
+    margin-left: 120px;
+}
+li a {
+    list-style-type: none;
+    color: #FB773C;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 60px;
+    margin-left: 40px;
+    text-decoration: none;
+  }
+  li a:hover {
+    color: white;
+}
+.navigace{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
